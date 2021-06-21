@@ -1,0 +1,351 @@
+/* navbar css */
+
+nav ul a,
+nav li a,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 51px;
+}
+
+nav ul li a {
+  margin-left: 30px;
+}
+
+.btn-success {
+  background-color: #014a34;
+}
+
+.log {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 51px;
+}
+
+/* End of navbar css */
+
+/* homepage css */
+
+#home {
+  margin-top: 60px;
+  height: 90vh;
+}
+
+#home p i {
+  color: #f4631e;
+  font-size: 20px;
+}
+
+#home p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 61px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+#home .content {
+  margin-top: 40px;
+}
+
+#home span {
+  color: #f4631e;
+}
+
+#home h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 62px;
+}
+
+#home h5 {
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 5550;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+#home img {
+  height: 400px;
+  width: 600px;
+  margin-top: 60px;
+}
+
+#home input {
+  background: #ffffff;
+  box-shadow: -3px 0px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  padding-left: 50px !important;
+}
+
+.icon {
+  margin-left: 410px;
+  margin-top: -49px;
+  height: 50px;
+  border-radius: 5px;
+  width: 50px;
+  background-color: #014a34;
+}
+
+.icon i {
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+/* End of homepage css */
+
+/* App css */
+
+#app {
+  height: 110vh;
+  background-color: #014a34;
+  margin-top: 120px;
+}
+
+/* Iphone */
+
+#app h3 {
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+
+  line-height: 43px;
+  margin-top: 180px;
+  margin-bottom: 110px;
+  color: #ffffff;
+}
+
+#app .phone img {
+  height: 1300px;
+  width: 1120px;
+  margin-left: -320px;
+  margin-top: -420px;
+}
+
+/* End of app css */
+
+/* How its work css */
+
+#How-its-work {
+  height: 130vh;
+  background: #e6edeb;
+}
+
+#How-its-work h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 92px;
+  padding-top: 80px;
+  color: #000000;
+}
+
+.card-group {
+  margin-top: 80px;
+}
+
+.card {
+  height: 400px;
+  margin: 25px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px !important;
+  min-width: 150px !important;
+  position: relative;
+}
+
+.animate-1 {
+  transition: all 0.2s ease-in-out;
+}
+.animate-1:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}
+
+.pick {
+  margin: auto;
+  margin-top: 70px;
+}
+
+.pic {
+  border-radius: 12px !important;
+}
+
+.card-body h5 {
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.card-body p {
+  font-family: muli, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* End of how its work css */
+
+/* Vendor css start here */
+
+#vendors {
+  height: 160vh;
+  padding-bottom: 90px;
+  background-image: url(/Chopspot/Images/vendor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#vendors h2 {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 300px;
+  line-height: 46px;
+}
+
+/* Vendor css end here */
+
+/* Footer Start here */
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 25px;
+  left: 0px;
+  /* top: 4667px; */
+  background: #ffffff;
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.img-logo {
+  margin-right: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .copy {
+  margin-top: 95px !important;
+}
+
+.copyRight {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.footer-head {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: justify;
+}
+.footer-icons {
+  list-style-type: none;
+  margin-left: 5px;
+}
+@media screen and (max-width: 720px) {
+  .footer-container,
+  .footer-paragraph {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-paragraph {
+    width: 100%;
+  }
+}
+
+/* Footer stop here */
+
+/* responsiveness */
+@media only screen and (max-width: 769px) {
+  #home {
+    height: 150vh;
+    width: 100%;
+  }
+  nav{
+    width: 100% !important;
+  }
+  #home input{
+    width: 250px !important;
+  }
+  #home input::placeholder{
+    font-size: 12px;
+    padding: 0 !important;
+    padding-left: 20px !important;
+  }
+  #home .icon{
+    margin-left: 257px;
+  }
+  #home img {
+    width: 430px;
+    height: 300px;
+    margin-left: -86px !important;
+  }
+
+  #app {
+    height: 130vh;
+  }
+
+  #app h3{
+    width: 80% !important;
+
+  }
+
+  #app .phone img {
+    display: none;
+  }
+
+  #How-its-work {
+    height: 320vh !important;
+  }
+
+  #vendors {
+    background-position: center;
+  }
+
+  
+}
